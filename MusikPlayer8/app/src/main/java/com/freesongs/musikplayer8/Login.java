@@ -2,6 +2,7 @@ package com.freesongs.musikplayer8;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,13 @@ public class Login extends AppCompatActivity {
                 else {
 
                 }
+            }
+        });
+        RegisterNowBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //open register activity
+                startActivity(new Intent(Login.this, Register.class));
             }
         });
     }
