@@ -31,10 +31,10 @@ public class Register extends AppCompatActivity {
         final EditText password = findViewById(R.id.password);
         final EditText conPassword = findViewById(R.id.conpassword);
 
-        final Button registerBtn = findViewById(R.id.RegisterNowBtn);
+        final Button RegisterBtn = findViewById(R.id.RegisterBtn);
         final TextView loginNowBtn = findViewById(R.id.loginNow);
 
-        registerBtn.setOnClickListener(new View.OnClickListener() {
+        RegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 final String fullnameTxt = fullname.getText().toString();
