@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<BaiHat> list;
     Button bt1;
-    TextView tv;
+    TextView tv1, tv2, tv3, tv4, tv5;
     ProgressBar pb;
 
     @Override
@@ -40,7 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
         pb = findViewById(R.id.idLoadingPB);
         bt1 = findViewById(R.id.bt1);
-        tv = findViewById(R.id.lv1);
+        tv1 = findViewById(R.id.tv1);
+        tv1 = findViewById(R.id.tv2);
+        tv1 = findViewById(R.id.tv3);
+        tv1 = findViewById(R.id.tv4);
+        tv1 = findViewById(R.id.tv5);
+
 
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,12 +67,14 @@ public class MainActivity extends AppCompatActivity {
                                     String baihat = response.getString("Bài hát");
                                     String hinhanh = response.getString("Hình ảnh");
                                     String thoiluong = response.getString("Thời lượng");
-
-                                    String list = response.getString("Bài hát");
-
                                     // after extracting all the data we are
                                     // setting that data to all our views.
-                                    tv.setText(list);
+                                    tv1.setText(tenbaihat);
+                                    tv2.setText(tacgia);
+                                    tv3.setText(baihat);
+                                    tv4.setText(hinhanh);
+                                    tv5.setText(thoiluong);
+
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
