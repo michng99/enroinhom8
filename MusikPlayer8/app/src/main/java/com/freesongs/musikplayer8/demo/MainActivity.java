@@ -1,4 +1,4 @@
-package com.freesongs.musikplayer8;
+package com.freesongs.musikplayer8.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.freesongs.musikplayer8.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                             Boolean insert = DB.insertData(user,pass);
                             if (insert==true){
                                 Toast.makeText(MainActivity.this, "Registered successfully", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                                 startActivity(intent);
                             }else {
                                 Toast.makeText(MainActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();

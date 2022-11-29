@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".LoginDB">
+    tools:context=".demo.LoginDB">
 
     <EditText
         android:layout_width="match_parent"
@@ -28,5 +28,14 @@
         android:text="Sign in"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/password1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="Register now"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnsignin1"/>
+
+
 
 </RelativeLayout>

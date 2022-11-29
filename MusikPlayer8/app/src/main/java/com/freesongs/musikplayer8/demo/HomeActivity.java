@@ -1,8 +1,10 @@
-package com.freesongs.musikplayer8;
+package com.freesongs.musikplayer8.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.freesongs.musikplayer8.R;
 
 public class HomeActivity extends AppCompatActivity {
 

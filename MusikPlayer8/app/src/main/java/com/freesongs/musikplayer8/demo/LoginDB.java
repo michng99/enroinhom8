@@ -1,4 +1,4 @@
-package com.freesongs.musikplayer8;
+package com.freesongs.musikplayer8.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,10 +9,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.freesongs.musikplayer8.R;
+
 public class LoginDB extends AppCompatActivity {
 
     EditText username,password;
-    Button btnlogin;
+    Button btnlogin,btnRegister;
     DBHelper DB;
 
     @Override
@@ -23,22 +25,23 @@ public class LoginDB extends AppCompatActivity {
         username = (EditText) findViewById(R.id.username1);
         password = (EditText) findViewById(R.id.password1);
         btnlogin = (Button) findViewById(R.id.btnsignin1);
+        btnRegister = (Button)findViewById(R.id.btnRegister);
         DB = new DBHelper(this);
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String user = username.getText().toString();
-                String pass = password.getText().toString();
+                String users = username.getText().toString();
+                String passs = password.getText().toString();
 
-                if (user.equals("")||pass.equals(""))
+                if (users.equals("")||passs.equals(""))
                     Toast.makeText(LoginDB.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else {
-                    Boolean checkuserpass = DB.checkusernamepassword(user, pass);
+                    Boolean checkuserpass = DB.checkusernamepassword(users, passs);
                     if (checkuserpass==true){
                         Toast.makeText(LoginDB.this, "Sign in successfully", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                         startActivity(intent);
                     }else {
                         Toast.makeText(LoginDB.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
@@ -46,5 +49,12 @@ public class LoginDB extends AppCompatActivity {
                 }
             }
         });
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginDB.this, MainActivity.class));
+            }
+        });
     }
+
 }
