@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "283744646406",
+    "project_id": "duan1-854dc",
+    "storage_bucket": "duan1-854dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283744646406:android:10a3a8a7968c48055a5a87",
+        "android_client_info": {
+          "package_name": "com.freesongs.musikplayer8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283744646406-ao367oblsp89t6upbcgq6eh0bg0022uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freesongs.musikplayer8",
+            "certificate_hash": "5018e8bd4d6a75ad2bba226433f7814a1354dc39"
+          }
+        },
+        {
+          "client_id": "283744646406-16ublj6735a1338m11238tokcsfva3jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWlkcwCZuwSdL8XdpKXzaPsXpVWbChkos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283744646406-16ublj6735a1338m11238tokcsfva3jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
