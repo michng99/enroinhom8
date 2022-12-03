@@ -5,7 +5,7 @@ const cors = require("cors");
 const connection = require("./db");
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
-// const songRoutes = require("./routes/songs");
+const songRoutes = require("./routes/baihats");
 // const playListRoutes = require("./routes/playLists");
 // const searchRoutes = require("./routes/search");
 const app = express();
@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use("/api/users/", userRoutes);
 app.use("/api/login/", authRoutes);
-// app.use("/api/songs/", songRoutes);
+app.use("/api/baihats/", songRoutes);
 // app.use("/api/playlists/", playListRoutes);
 // app.use("/api/", searchRoutes);
 
