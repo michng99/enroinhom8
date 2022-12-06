@@ -10,17 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc058e50-5f8f-41e6-a50d-a3eb60ef7d6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/freesongs/testrestfulapiretrofit/PlaylistActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/freesongs/testrestfulapiretrofit/adapter/BaiHatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/freesongs/testrestfulapiretrofit/model/BaiHat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/freesongs/testrestfulapiretrofit/retrofit/ApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/freesongs/testrestfulapiretrofit/retrofit/ApiInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_library_music_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_playlist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/baihatrow_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.vscode/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.vscode/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/models/playlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/models/playlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/models/songs.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
