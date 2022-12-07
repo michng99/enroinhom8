@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { PlayList, validate } = require("../models/playList");
+const { PlayList, validate } = require("../models/playlist");
 const { BaiHat } = require("../models/baihat");
 const { User } = require("../models/user");
 const auth = require("../middleware/auth");
