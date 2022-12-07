@@ -6,72 +6,43 @@
     android:layout_height="match_parent"
     android:background="#272728">
 
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702"
-        android:thumbTint="#EC4242"/>
-
     <TextView
-        android:id="@+id/tenbh"
+        android:id="@+id/bxh"
         android:layout_width="wrap_content"
-        android:layout_height="51dp"
-        android:text="tuade"
-        android:textAlignment="textStart"
-        android:textColor="#D629F4"
-        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bxh"
+        android:textAlignment="center"
+        android:textColor="#E34242"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        tools:text="Ten Bai Hat" />
+        app:layout_constraintVertical_bias="0.023" />
 
-    <ImageButton
-        android:id="@+id/lui"
+    <TextView
+        android:id="@+id/theloai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/lui"
+        android:text="@string/theloai"
+        android:textAlignment="textStart"
+        android:textColor="#E15656"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintTop_toBottomOf="@+id/recyvlerviewbxh"
+        app:layout_constraintVertical_bias="0.089" />
 
-    <ImageButton
-        android:id="@+id/tien"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/tien"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyvlerviewbxh"
+        android:layout_width="391dp"
+        android:layout_height="371dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
-
-    <ImageButton
-        android:id="@+id/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/play"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.856" />
-
+        app:layout_constraintTop_toBottomOf="@+id/bxh" />
 </androidx.constraintlayout.widget.ConstraintLayout>

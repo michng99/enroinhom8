@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MusikPlayer8</string>
+    <string name="app_name">MusikPlayer</string>
+    <string name="bxh">Bảng Xếp Hạng</string>
+    <string name="theloai">Thể Loại</string>
 </resources>
