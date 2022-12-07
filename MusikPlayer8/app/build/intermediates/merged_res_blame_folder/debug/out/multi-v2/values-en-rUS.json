@@ -1,0 +1,46 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DELL\\.gradle\\daemon\\7.4\\com.freesongs.musikplayer8.app-mergeDebugResources-27:\\values-en-rUS\\values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "D:\\Users\\DELL\\Documents\\GitHub\\enroihcm8\\MusikPlayer8\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,94,143,185,235,363",
+                        "endColumns": "38,48,41,49,127,55",
+                        "endOffsets": "89,138,180,230,358,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.freesongs.musikplayer8.app-mergeDebugResources-27:/values-en-rUS/values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "D:\\Users\\DELL\\Documents\\GitHub\\enroihcm8\\MusikPlayer8\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,8,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,419,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,42,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,457,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,143,185,235,278,406",
+                        "endColumns": "38,48,41,49,42,127,55",
+                        "endOffsets": "89,138,180,230,273,401,457"
+                    }
+                }
+            ]
+        }
+    ]
+}
