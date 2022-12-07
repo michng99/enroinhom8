@@ -5,7 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86e83eb-c0fc-49dd-a009-54d0637013fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/androidTest/java/com/example/musikplayer8/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/DBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/changePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/example/musikplayer8/checkuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/edittextbackground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/ic_baseline_visibility_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_change_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_checkuser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/test/java/com/example/musikplayer8/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/runConfigurations/MusikPlayer8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/androidTest/java/com/freesongs/musikplayer8/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/freesongs/musikplayer8/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/freesongs/musikplayer8/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/java/com/freesongs/musikplayer8/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/drawable/ic_security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/app/src/test/java/com/freesongs/musikplayer8/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/enroinhom8/MusikPlayer8/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +91,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IaePtfBgUsf2v6Who7edSiqLjO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
