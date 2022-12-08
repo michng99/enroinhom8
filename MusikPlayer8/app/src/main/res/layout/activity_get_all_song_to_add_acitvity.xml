@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".GetAllSongToAddAcitvity">
+
+    <TextView
+        android:id="@+id/tv_titile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DS BÀI HÁT" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_getall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:id="@+id/btnChuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/rcv_getall"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:text="chuyển " />
+    </RelativeLayout>
+</LinearLayout>
